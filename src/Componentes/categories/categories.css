@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Unbounded:wght@200;300&family=Work+Sans:ital,wght@0,400;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red-color:#AF3333;
+    --black-color:#000;
+    --white-color:#fff;
+    --letter:'Unbounded', cursive;
+}
+
+.container-categories{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 800px;
+
+}
+
+.pict{
+    height: 230px;
+    width: 250px;
+    background-color:var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px 0;
+
+
+}
+.pict img{
+    height:150px;
+    width: 200px;
+    border-radius: 20px 20px 0 0;
+}
+.Infopicada{
+    border: none;
+    background-color:var(--red-color) ;
+    height: 40px;
+    width: 200px;
+    font-family: var(--letter);
+    border-radius: 0 0 20px 20px;
+    font-weight:bold;   
+}
+.Infopicada:hover{
+    background-color: #f24848;
+}

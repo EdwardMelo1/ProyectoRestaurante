@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Roboto&family=Unbounded:wght@200;300&family=Work+Sans&display=swap');
+
+:root{
+    --red-color:#AF3333;
+    --black-color:#000;
+    --white-color:#fff;
+    --letter:'Open Sans', sans-serif;
+}
+.contenedor_foter{
+    background-color: var(--black-color);
+    width: 100%;
+    height: 100%;
+}
+.foter{
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+hr{
+    background-color: var(--white-color);
+    height: 3px;
+    border: none;
+}
+.FooterInstagram{
+    color: var(--white-color);
+    width: 50px;
+    height: 8   0px;
+}
+.redes{
+    text-align: center;
+}
+h2 h3 h4 h1 {
+    font-family: var(--letter);
+}

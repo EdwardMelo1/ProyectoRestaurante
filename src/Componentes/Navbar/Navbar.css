@@ -1,0 +1,103 @@
+
+.Cabecera {
+    width: 100%;
+    background-color: #AF3333;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.Cabecera-a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+    justify-content: center;
+
+}
+
+.Cabecera-button {
+    display: none;
+    cursor: pointer;
+}
+
+.Cabecera-svg {
+    width: 4em;
+    height: 4em;
+    fill: white;
+    background-color: black;
+    border-radius: 30%;
+}
+
+
+
+
+.Cabecera-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Cabecera-li {
+    text-decoration: none;
+    font-weight: 800;
+    font-size:50px;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+/* Changes */
+.change{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.carShop{
+    margin-top: 15px;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+
+}
+@media screen and (max-width:480px) {
+
+    .Cabecera-button {
+        display: flex;
+        border: none;
+        border-radius: 30%;
+    }
+
+    .Cabecera-nav {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:center;
+        align-items: center;
+        height: 0vh;
+        opacity: 0;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+
+    .Cabecera-nav.isActive {
+        height: 35vh;
+        opacity: 1;
+    }
+
+    .Cabecera-ul {
+        flex-direction: column;
+        
+    }
+
+    .Cabecera-li {
+        *margin: .5em 0;
+        
+    }
+}
