@@ -2,6 +2,7 @@ import "./Main.css"
 import picada from "../imagenes/img/picada.png"
 import { ImLocation } from 'react-icons/im';
 import Categories from "../../Componentes/categories/categories";
+import imgRestaurante from "../imagenes/img/casa.png"
 
 function Main(){
     return(
@@ -18,6 +19,8 @@ function Main(){
                     <div className="location">
                     <ImLocation className="icon-ubi"/>
                     <h1>Estamos hubicados </h1>
+                    <img src={imgRestaurante} alt="imagen del local" />
+                    <h3></h3>
                     </div>
 
                     

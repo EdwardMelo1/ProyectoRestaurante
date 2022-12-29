@@ -3,6 +3,9 @@ import "./Foter.css"
 import { AiFillInstagram } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';
+/* import Whastapp from "./whastapp" */
+
+
 
 
 function foter(){
@@ -30,7 +33,9 @@ function foter(){
                 <AiFillFacebook className="FooterInstagram"/>
                 <AiFillTwitterCircle className="FooterInstagram"/>
             </div>
+            
         </div>
+        {/* <Whastapp/> */}
     </>
     )
 }
