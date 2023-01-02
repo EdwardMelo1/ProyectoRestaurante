@@ -25,7 +25,7 @@ function foter(){
                     <h3>Sábado a Domingo | 11:00am a 4:00pm</h3>
                 </div>
                 <div className="Information">
-                <h3 >Bienvenidos nosotros somos fogonés del rincón, un restaurante que se encarga de ofrecer las mejores picadas y almuerzos que podrás encontrar en todo suba, con una gran variedad de alimentos. ¡Te esperamos!.</h3>
+                <h3 >Bienvenidos nosotros somos fogonés del rincón, un restaurante que se encarga de ofrecer las mejores picadas y almuerzos que podrás encontrar en todo suba, con una gran variedad de alimentos. ¡Te esperamos!</h3>
                 </div>
             </div>  
             <hr />
