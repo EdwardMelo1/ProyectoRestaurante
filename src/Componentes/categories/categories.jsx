@@ -28,7 +28,7 @@ function categories(){
         <div className="pict">
             <img src={lunch} alt="Corrientazo" />
             
-            <h2> Corrienzato: <hr />- Almuerzo tipico colombiano, Cada dia un menu diferente </h2>
+            <h2> Corrientazo: <hr />- Almuerzo tipico colombiano, cada dia un menu diferente </h2>
             <div className="Info">
                 <Link to="/categories"> 
                 <button className="Infopicada">Comprar Corrientazos</button>

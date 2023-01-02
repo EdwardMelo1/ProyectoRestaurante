@@ -9,7 +9,7 @@ function Main(){
         <>
             <div className="main">
                 <img src={picada} alt="picada" />
-                    <h1 className="Tittle"><span> Restaurante</span> | Fogones del rincon</h1>
+                    <h1 className="Tittle"><span> Restaurante</span> | Fogonés del rincón</h1>
                 <div className="categorie">
                         <h2>Categorias</h2>
                         <Categories/>
@@ -21,7 +21,7 @@ function Main(){
                     <ImLocation className="icon-ubi"/>
                     <h1>Estamos ubicados </h1>
                     <img src={imgRestaurante} alt="imagen del local" />
-                    <h3>Direccion <hr /> Cra. 94f #131c-98 </h3>
+                    <h3>Dirección <hr /> Cra. 94f #131c-98 </h3>
                     </div>
 
                     
