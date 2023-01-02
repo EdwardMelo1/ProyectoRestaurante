@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import "./Carshop.css";
+import ReactWhatsapp from 'react-whatsapp';
+
 export const Header = ({
     allProducts,
     setAllProducts,
@@ -26,9 +28,11 @@ export const Header = ({
         setCountProducts(0);
     };
 
+
+
     return (
         <header>
-            <h1>Tienda</h1>
+            <h1>Productos</h1>
 
             <div className='container-icon'>
                 <div
@@ -36,7 +40,7 @@ export const Header = ({
                     onClick={() => setActive(!active)}
                 >
                     <svg
-                        xmlns='http://www.w3.org/2000/svg'
+                        xmlns='https://cdn-icons-png.flaticon.com/512/107/107831.png'
                         fill='none'
                         viewBox='0 0 24 24'
                         strokeWidth='1.5'
@@ -100,6 +104,14 @@ export const Header = ({
 
                             <button className='btn-clear-all' onClick={onCleanCart}>
                                 Vaciar Carrito
+                            </button>
+                            <button className='botonwhatsapp'>
+                                <ReactWhatsapp
+                                    number="+57 3237125188"
+                                    message ={`los productos son -  ${allProducts.map(product =>( product.quantity+" "+product.nameProduct + " "+product.price))} y su total es ${total}`}
+                                >
+                                    <h1>Pedir por whatsapp</h1>
+                                </ReactWhatsapp>
                             </button>
                         </>
                     ) : (

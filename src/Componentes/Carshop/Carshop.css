@@ -1,5 +1,5 @@
 /* Globales */
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Roboto&family=Unbounded:wght@200;300&family=Work+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +13,9 @@ body {
     color: #333;
 }
 
+h1 h2 h3 h4{
+    font-family:'Open Sans', sans-serif; 
+}
 .icon-cart {
     width: 40px;
     height: 40px;
@@ -43,8 +46,8 @@ header {
     top: 55%;
     right: 0;
 
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(8, 111, 22);
+    color: rgb(255, 255, 255);
     width: 25px;
     height: 25px;
 
@@ -52,6 +55,8 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    font-family:'Open Sans', sans-serif; 
 }
 
 #contador-productos {
@@ -63,11 +68,12 @@ header {
     top: 50px;
     right: 0;
 
-    background-color: #fff;
+    background-color: rgb(255, 212, 212);
     width: 400px;
     z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(157, 24, 24, 0.772);
     border-radius: 10px;
+    font-family:'Open Sans', sans-serif; 
 }
 
 .cart-product {
@@ -173,6 +179,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-family:'Open Sans', sans-serif; 
 }
 
 .price {
@@ -184,11 +191,18 @@ header {
     border: none;
     background: none;
     background-color: #000;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 15px 10px;
     cursor: pointer;
+    font-family:'Open Sans', sans-serif; 
 }
+.info-product{
+    background-color: rgb(238, 133, 133);
 
+}
+.info-product h2{
+    font-size: 20px;
+}
 .cart-empty {
     padding: 20px;
     text-align: center;
@@ -200,14 +214,12 @@ header {
 
 .btn-clear-all {
     border: none;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(234, 69, 69);
+    color: rgb(255, 255, 255);
     padding: 15px 0;
     display: block;
     width: 100%;
     margin-top: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     font-family: inherit;
     cursor: pointer;
     font-size: 16px;
@@ -215,7 +227,63 @@ header {
 }
 
 .btn-clear-all:hover {
-    background-color: #333;
+    background-color: rgb(148, 22, 22);
     transform: scale(1.03);
     border-radius: 0;
+}
+.botonwhatsapp h1{
+    background-color: rgb(79, 162, 54);
+    color:white;
+    height: 50px;
+    width: 400px ;
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.botonwhatsapp h1:hover {
+    background-color: rgb(13, 87, 13);
+    transform: scale(1.03);
+    border-radius: 0;
+}
+button{
+    border: none;
+    color: none;
+}
+
+
+@media (max-width: 480px){
+    .container-items{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .item{
+        width: 250px;
+        margin: 20px;
+    }
+    .item img{
+        width: 250px;
+        height: 250px;
+    }
+    .container-cart-products{
+        width: 100vw;
+    }
+}   
+@media (max-width: 768px){
+
+}.container-items{
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    
+}
+.item{
+    
+    margin: 20px;
 }

@@ -27,6 +27,8 @@ export const ProductList = ({
 	};
 
 	return (
+
+		/* cards */
 		<div className='container-items'>
 			{data.map(product => (
 				<div className='item' key={product.id}>

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'; 
 import Home from "../src/Vistas/Home"
-import Categoriass from "./Vistas/Categoriass"
+import Categorias from "./Vistas/Categoriass"
 
 
 
@@ -12,7 +12,7 @@ import Categoriass from "./Vistas/Categoriass"
 const router=createBrowserRouter([
     {
         path:"/categories",
-        element:<Categoriass/>,
+        element:<Categorias/>,
     },
     {
         path:"/inicio",

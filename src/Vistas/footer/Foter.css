@@ -21,20 +21,65 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    text-align: center;
 }
 hr{
     background-color: var(--white-color);
     height: 3px;
     border: none;
 }
-.FooterInstagram{
-    color: var(--white-color);
-    width: 50px;
-    height: 8   0px;
+
+
+h2, h3, h4, h1  {
+    font-family:'Open Sans', sans-serif; 
+}
+
+.contact{
+    margin: 15px 0;
+}
+.schedule{
+    margin: 15px 0;
+}
+.Information{
+    margin: 20px 0;
 }
 .redes{
     text-align: center;
 }
-h2 h3 h4 h1 {
-    font-family: var(--letter);
+.FooterInstagram{
+    color: var(--white-color);
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px;
+}
+@media (max-width: 420px){
+    .burger{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+
+    h2{
+        font-size: 40px;
+        font-family:'Open Sans', sans-serif; 
+    }
+    h3{
+        font-size: 30px;
+        font-family:'Open Sans', sans-serif; 
+    }
+}
+@media screen and (min-width:1900px){
+    .foter{
+        flex-direction: row;
+    }
+    .contact{
+        width: 500px;
+    }
+    .schedule{
+        width: 500px;
+    }
+    .Information{
+        width: 500px;
+        margin-right: 30px;
+    }
 }

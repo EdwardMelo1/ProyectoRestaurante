@@ -3,6 +3,7 @@ import { Header } from '../Carshop/Carshop';
 import { ProductList } from '../Carshop/ProductList';
 import "../Carshop/Carshop.css";
 
+
 function Car() {
 	const [allProducts, setAllProducts] = useState([]);
 	const [total, setTotal] = useState(0);

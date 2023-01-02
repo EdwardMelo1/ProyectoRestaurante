@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Navbar.css';
-import { FaShoppingCart } from 'react-icons/fa';
+
+import logo from "../../Vistas/imagenes/img/Logo.png";
 import {
     Link
 } from "react-router-dom";
@@ -16,7 +17,7 @@ const Cabecera = () => {
     return (
         <header className="Cabecera">
             <h1 className="Cabecera-h1">
-                <img src="" alt="" />
+                <img src= {logo} alt="logo fogones del rincon" />
             </h1>
 
             <button
@@ -33,24 +34,18 @@ const Cabecera = () => {
                     <div className='change'>
                 
                     <Link to="/" className='rr'>
-                        <li className="Cabecera-li"> <h2 href="#" className="Cabecera-a">Inicio</h2>  </li>
+                        <li className="Cabecera-li"> <button href="#" className="Cabecera-a">Inicio</button>  </li>
                     </Link>
 
                     </div>
                     <div className='change'>
 
                     <Link to="/categories">  
-                        <li className="Cabecera-li"><h2 href="#" className="Cabecera-a">Categorias</h2></li>
+                        <li className="Cabecera-li"><button href="#" className="Cabecera-a">Categorias</button></li>
                     </Link>
 
                     </div>
-                    <div className='change'>
-
-
-                        <li className="Cabecera-a"> <FaShoppingCart className="carShop"/></li>
-
-
-                    </div>  
+                
                 </ul> 
                 
             </nav>
