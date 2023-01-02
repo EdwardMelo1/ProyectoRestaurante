@@ -19,7 +19,7 @@ function Main(){
 
                     <div className="location">
                     <ImLocation className="icon-ubi"/>
-                    <h1>Estamos hubicados </h1>
+                    <h1>Estamos ubicados </h1>
                     <img src={imgRestaurante} alt="imagen del local" />
                     <h3>Direccion <hr /> Cra. 94f #131c-98 </h3>
                     </div>
