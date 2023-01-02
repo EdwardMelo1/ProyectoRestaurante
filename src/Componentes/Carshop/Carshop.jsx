@@ -107,7 +107,7 @@ export const Header = ({
                             </button>
                             <button className='botonwhatsapp'>
                                 <ReactWhatsapp
-                                    number="+57 3237125188"
+                                    number="+57 3123471411"
                                     message ={`los productos son -  ${allProducts.map(product =>( product.quantity+" "+product.nameProduct + " "+product.price))} y su total es ${total}`}
                                 >
                                     <h1>Pedir por whatsapp</h1>
