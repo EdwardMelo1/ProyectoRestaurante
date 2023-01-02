@@ -1,7 +1,7 @@
 import { data } from "../../data"
 import "./Carshop.css";
 
-export const ProductList = ({
+export const ProductList = ({ /* argumentos de el carrito de compras   */
 	allProducts,
 	setAllProducts,
 	countProducts,
@@ -9,7 +9,7 @@ export const ProductList = ({
 	total,
 	setTotal,
 }) => {
-	const onAddProduct = product => {
+	const onAddProduct = product => { /* metodo para añadir a productos al carrito de compra */
 		if (allProducts.find(item => item.id === product.id)) {
 			const products = allProducts.map(item =>
 				item.id === product.id
@@ -28,7 +28,7 @@ export const ProductList = ({
 
 	return (
 
-		/* cards */
+		/* Card de productos */
 		<div className='container-items'>
 			{data.map(product => (
 				<div className='item' key={product.id}>

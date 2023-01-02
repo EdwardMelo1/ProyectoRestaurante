@@ -4,13 +4,13 @@ import { ProductList } from '../Carshop/ProductList';
 import "../Carshop/Carshop.css";
 
 
-function Car() {
+function Car() { /* funcion para el carrito y lista de productos */
 	const [allProducts, setAllProducts] = useState([]);
 	const [total, setTotal] = useState(0);
 	const [countProducts, setCountProducts] = useState(0);
 
 	return (
-		<>
+		<>{/* retorna el header y el productlist */}
 			<Header
 				allProducts={allProducts}
 				setAllProducts={setAllProducts}
@@ -18,7 +18,7 @@ function Car() {
 				setTotal={setTotal}
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}
-			/>
+			/>	
 			<ProductList
 				allProducts={allProducts}
 				setAllProducts={setAllProducts}

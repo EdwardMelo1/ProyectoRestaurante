@@ -7,7 +7,7 @@ import {
     Link
 } from "react-router-dom";
 
-function categories(){
+function categories(){ /* informacion de la categorias */
     return(
     <>
     <div className="container-categories">

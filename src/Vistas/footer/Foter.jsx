@@ -8,7 +8,7 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 
 
 
-function foter(){
+function foter(){   /* esto pinta el footer  */
     return(
     <>
         <div className="contenedor_foter">
@@ -19,7 +19,7 @@ function foter(){
                     
                 </div>
 
-                <div className="schedule">
+                <div className="schedule"> {/* los horarios del restaurante */}
                     <h2>Horarios:</h2>
                     <h3>Lunes a viernes | 11:00am a 4:00pm</h3>
                     <h3>Sábado a Domingo | 11:00am a 4:00pm</h3>
@@ -29,7 +29,7 @@ function foter(){
                 </div>
             </div>  
             <hr />
-            <div className="redes">
+            <div className="redes">{/* no tiene funcionalidad solo decoracion por el momento  */}
                 <AiFillInstagram className="FooterInstagram"/>
                 <AiFillFacebook className="FooterInstagram"/>
                 <AiFillTwitterCircle className="FooterInstagram"/>

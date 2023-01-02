@@ -2,7 +2,9 @@ import { useState } from 'react';
 import "./Carshop.css";
 import ReactWhatsapp from 'react-whatsapp';
 
-export const Header = ({
+
+/* se crea una constante que trae alg */
+export const Header = ({  
     allProducts,
     setAllProducts,
     total,
@@ -10,9 +12,9 @@ export const Header = ({
     setCountProducts,
     setTotal,
 }) => {
-    const [active, setActive] = useState(false);
+    const [active, setActive] = useState(false);/* se crea otra constante con los useState */
 
-    const onDeleteProduct = product => {
+    const onDeleteProduct = product => {/* Metodo para borrar un producto del carrito de compras */
         const results = allProducts.filter(
             item => item.id !== product.id
         );
@@ -22,7 +24,7 @@ export const Header = ({
         setAllProducts(results);
     };
 
-    const onCleanCart = () => {
+    const onCleanCart = () => {/*  metodo para limpiar el carrito*/
         setAllProducts([]);
         setTotal(0);
         setCountProducts(0);

@@ -4,7 +4,7 @@ import Car from "../Componentes/CarContainer/Car"
 import Foter from "./footer/Foter"
 
 const categories = () => {
-return (
+return (    /* se importan coponentes para la pagina de cotegorias  */
     <>
     <Navbar/>
     <Car/>

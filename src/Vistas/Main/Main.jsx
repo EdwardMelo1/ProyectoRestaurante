@@ -4,7 +4,7 @@ import { ImLocation } from 'react-icons/im';
 import Categories from "../../Componentes/categories/categories";
 import imgRestaurante from "../imagenes/img/casa.png"
 
-function Main(){
+function Main(){/* parte del el inicio  */
     return(
         <>
             <div className="main">
